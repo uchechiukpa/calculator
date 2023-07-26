@@ -1,0 +1,18 @@
+.container{ 
+    display: grid;
+    color: black;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 700px;
+    height: 800px;
+}
+
+.container div{
+    border: 1px solid black;
+}
+
+.display{ 
+    grid-column-start: span 4;
+}
+.zero{
+    grid-column-start: span 2;
+}
